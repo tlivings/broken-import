@@ -1,0 +1,13 @@
+{
+  "name": "broken-import",
+  "version": "1.0.0",
+  "main": "test/index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "7.3.12",
+    "@graphql-tools/load": "7.5.11",
+    "tape": "5.5.3"
+  }
+}

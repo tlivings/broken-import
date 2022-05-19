@@ -1,0 +1,9 @@
+# import Imported from "../b/schema.graphql"
+
+type Query {
+    test: Foo
+}
+
+type Foo {
+    field: Imported
+}
